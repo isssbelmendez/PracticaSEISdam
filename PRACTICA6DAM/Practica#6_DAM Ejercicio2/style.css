@@ -1,0 +1,27 @@
+/* Estilos personalizados para el Mini Editor de Texto */
+
+/* Centra el contenido del #editor horizontalmente */
+#editor {
+    text-align: center;
+}
+
+/* Añade un espacio entre los elementos del formulario */
+#editor > * {
+    margin-bottom: 5px;
+}
+
+/* Ajusta el tamaño del textarea */
+#texto {
+    width: 98%;
+    height: 200px; /* Ajusta la altura según tus necesidades */
+}
+
+/* Estiliza los botones de agregar y limpiar */
+#agregar, #limpiar {
+    margin-top: 5px;
+}
+
+/* Añade espacios entre los elementos dentro de #contenido */
+#contenido > * {
+    margin-bottom: 10px;
+}
